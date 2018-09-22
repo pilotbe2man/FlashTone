@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GothamRounded-Bold.otf">
+            <string>GothamRounded-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryCell" id="gTV-IL-0wX" customClass="CategoryCell" customModule="FlashTone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="86"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="160" height="86"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dk5-J4-O3v">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="86"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aTW-zY-Ret">
+                        <rect key="frame" x="57.5" y="35.5" width="45" height="16"/>
+                        <fontDescription key="fontDescription" name="GothamRounded-Bold" family="Gotham Rounded" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="dk5-J4-O3v" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0AZ-Br-uGv"/>
+                <constraint firstItem="aTW-zY-Ret" firstAttribute="centerX" secondItem="dk5-J4-O3v" secondAttribute="centerX" id="D4P-aQ-wyw"/>
+                <constraint firstItem="aTW-zY-Ret" firstAttribute="centerY" secondItem="dk5-J4-O3v" secondAttribute="centerY" id="F43-r2-1BW"/>
+                <constraint firstItem="dk5-J4-O3v" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="csc-4B-RKi"/>
+                <constraint firstAttribute="bottom" secondItem="dk5-J4-O3v" secondAttribute="bottom" id="rhT-xB-GxE"/>
+                <constraint firstAttribute="trailing" secondItem="dk5-J4-O3v" secondAttribute="trailing" id="yRa-oF-TBP"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="325" height="97"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="10"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="imgview_category" destination="dk5-J4-O3v" id="whO-ug-JGo"/>
+                <outlet property="lbl_title" destination="aTW-zY-Ret" id="lJr-TS-Pag"/>
+            </connections>
+            <point key="canvasLocation" x="-199" y="-30"/>
+        </collectionViewCell>
+    </objects>
+</document>

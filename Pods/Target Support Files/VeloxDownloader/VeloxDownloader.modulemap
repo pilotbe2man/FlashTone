@@ -1,0 +1,6 @@
+framework module VeloxDownloader {
+  umbrella header "VeloxDownloader-umbrella.h"
+
+  export *
+  module * { export * }
+}

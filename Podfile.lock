@@ -1,0 +1,70 @@
+PODS:
+  - Alamofire (4.7.2)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - ESTabBarController-swift (2.6.2)
+  - FacebookCore (0.3.1):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.33)
+  - FBSDKCoreKit (4.34.0):
+    - Bolts (~> 1.7)
+  - ImageLoader (0.14.0)
+  - IQKeyboardManagerSwift (6.0.4)
+  - MBProgressHUD (1.0.0)
+  - Player (0.8.4)
+  - SSKeychain (1.4.1)
+  - SwiftyJSON (4.1.0)
+  - SwiftyStoreKit (0.13.2)
+  - VeloxDownloader (1.6)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - ESTabBarController-swift
+  - FacebookCore
+  - ImageLoader
+  - IQKeyboardManagerSwift
+  - MBProgressHUD (~> 1.0.0)
+  - Player (~> 0.8.0)
+  - SSKeychain
+  - SwiftyJSON
+  - SwiftyStoreKit
+  - VeloxDownloader (~> 1.6)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Bolts
+    - ESTabBarController-swift
+    - FacebookCore
+    - FBSDKCoreKit
+    - ImageLoader
+    - IQKeyboardManagerSwift
+    - MBProgressHUD
+    - Player
+    - SSKeychain
+    - SwiftyJSON
+    - SwiftyStoreKit
+    - VeloxDownloader
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  ESTabBarController-swift: f0a8679e43df1e60b7b36bbcaf1dc98ba6273c7d
+  FacebookCore: 33078ef1d7d76b73f7e8c990dca7d3ea6db8d22f
+  FBSDKCoreKit: 0ff57f093b85c8c9d5aba697d3edf68a8960ce78
+  ImageLoader: 56f57e35d6ed26a74183dc2e472133b4b22eb7b9
+  IQKeyboardManagerSwift: 36dbe324b4f9793f5f41ba5227f3e7c76dfefd50
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Player: e45514e9e5fb8ff18f50eb2ba6f84dac9b6a0024
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  SwiftyStoreKit: b7563505440a68c9d9fa70bc43d8a97015519409
+  VeloxDownloader: af352622cdc059830d94ca3ea013aaa3380db14d
+
+PODFILE CHECKSUM: c4abbca711f570809f5967d6d04193822b7f2a5d
+
+COCOAPODS: 1.5.0

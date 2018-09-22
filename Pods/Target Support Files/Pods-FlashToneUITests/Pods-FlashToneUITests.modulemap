@@ -1,0 +1,6 @@
+framework module Pods_FlashToneUITests {
+  umbrella header "Pods-FlashToneUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
